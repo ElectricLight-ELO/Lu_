@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница Авторизации</title>
+    <!-- Подключение CSS для стилизации формы -->
+    <link rel="stylesheet" href="LoginStyles.css">
+</head>
+<body>
+    <div class="auth-container">
+        <h2>Вход на сайт</h2>
+        <form action="login.php" method="post">
+            <label for="username">Login</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Enter</button>
+            <p>Еще нет аккаунта? <a href="registration.html" class="register-link">Зарегистрироваться</a></p>
+
+        </form>
+    </div>
+</body>
+</html>

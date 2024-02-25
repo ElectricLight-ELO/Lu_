@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #21203f; 
+}
+
+.category-container {
+    width:   200px;
+    height: 400px;
+    margin:   100px auto;
+    padding:   20px;
+    background-color: #1e214c;
+    box-shadow:   0px   0px   10px rgba(0,   0,   0,   0.1);
+    position: relative; 
+    z-index:  1;
+    top:-5vh;
+    left: -40vw; 
+    border-radius: 10px;
+}
+
+.tasks-container {
+    width:   800px;
+    height: auto;
+    margin:   100px auto;
+    padding:   20px;
+    background-color: #1e214c;
+    box-shadow:   0px   0px   10px rgba(0,   0,   0,   0.1);
+    position: relative; 
+    z-index:  1;
+    top:-36vh;
+    left: 16vw; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+.task-container {
+    width:   750px;
+    height: 65px;
+    margin:   100px auto;
+    padding:   20px;
+    background-color: #8321b9;
+    box-shadow:   0px   0px   10px rgba(0,   0,   0,   0.1);
+    position: relative; 
+    z-index:  1;
+    top:-13vh;
+    left: 0vw; 
+    border-radius: 7px;
+    overflow: hidden;
+}
+.button-log{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    top:  0vh;
+    left:  90vw;
+}
+// 007bff
+.button-readMore{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top:  0vh;
+    left:  0vw;
+    background-color: #007bff;
+}
+
+button {
+    padding:  10px;
+    width: 190px;
+    height: 40px;
+    
+    background-color: #755cdc;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom:5px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.h2task-container{
+    position: relative;
+    top:  -5vh;
+    left:  0vw;
+    
+    color: #F5F5F5;
+}
+.labeltask-container{
+    
+    position: relative;
+    top:  -7vh;
+    left:  0vw;
+    padding-bottom: 5px;
+    padding:  0px;
+    color: #F5F5F5;
+}
+p{
+    color: white;
+}

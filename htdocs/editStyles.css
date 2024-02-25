@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #21203f;
+}
+
+.profile-container {
+    width:  500px;
+    margin:  50px auto;
+    padding:  20px;
+    background-color: #1e214c;
+    box-shadow:  0px  0px  10px rgba(0,  0,  0,  0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top:  10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    padding:  10px;
+    margin-bottom:  10px;
+    border:  1px solid #44316d;
+    color: #ffffff; /* Устанавливаем белый цвет текста для полей ввода */
+    background-color: #1f265a;
+}
+
+textarea {
+    resize: none; /* Позволяет изменять только высоту текстового поля */
+}
+
+button {
+    padding:  10px;
+    background-color: #755cdc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+label {
+    color: #ffffff;
+    margin-bottom:  5px;
+
+}
+h2 {
+    color: #ffffff;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding:  6px  12px;
+    cursor: pointer;
+    background-color: #755cdc;
+    color: white;
+    border: none;
+    border-radius:  4px;
+    text-align: center;
+    font-size:  16px;
+    transition: background-color  0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #3b51ae;
+}

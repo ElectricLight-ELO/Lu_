@@ -1,0 +1,136 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #21203f; 
+}
+
+.user-container {
+    width:   300px;
+    height: 400px;
+    margin:   100px auto;
+    padding:   20px;
+    background-color: #1e214c;
+    box-shadow:   0px   0px   10px rgba(0,   0,   0,   0.1);
+    position: relative; 
+    z-index:  1;
+    top:-5vh;
+    left: -36vw; 
+    border-radius: 5px;
+}
+
+.avatar-container {
+    width:   200px;
+    height:  200px;
+    margin:   100px auto;
+    padding:   20px;
+    background-color: #f8b179;
+    box-shadow:   0px   0px   10px rgba(0,   0,   0,   0.1);
+    position: relative;
+    top:  -79px;
+    left:  0;
+    z-index:  2;
+    border-radius: 5px;
+}
+.info-container {
+    width:   630px;
+    height:  550px;
+    margin:   100px auto;
+    padding:   20px;
+    background-color: #1e214c;
+    box-shadow:   0px   0px   10px rgba(0,   0,   0,   0.1);
+    position: relative;
+    top:  -81vh;
+    left:  0px;
+    z-index:  2;
+    border-radius: 5px;
+}
+.work-info{
+    border:  2px solid #3aa7b1; /* Выберите цвет рамки */
+    
+    
+    width:   250px;
+    height:  80px;
+    margin:   100px auto;
+    padding:   20px;
+    background-color: #1e214c;
+    box-shadow:   0px   0px   10px rgba(0,   0,   0,   0.1);
+    position: relative;
+    top:  -179vh;
+    left:  35vw;
+    z-index:  2;
+    border-radius: 10px;
+}
+.username-h2{
+    position: relative;
+    top:  -160px;
+    left:  0px;
+}
+
+.username-label{
+    position: relative;
+    top:  -170px;
+    left:  0px;
+}
+.info-label{
+    position: relative;
+    top:  0px;
+    left:  0px;
+}
+.button-offer{
+    position: relative;
+    top:  -150px;
+    left:  0px;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.ticketinfo-container{
+    position: relative;
+    top:  0px;
+    left:  0px;
+    
+    color: #F5F5F5;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    padding:  10px;
+    margin-bottom:  10px;
+    border:  1px solid #44316d;
+    color: #ffffff; /* Устанавливаем белый цвет текста для полей ввода */
+    background-color: #1f265a;
+}
+
+button {
+    padding:  10px;
+    background-color: #755cdc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+h2 {
+    color: #ffffff; /* Устанавливаем белый цвет текста для заголовка */
+}
+label {
+    color: #ffffff;
+    display: block;
+    margin-bottom:  2px;
+
+}
+p{
+    color: white;
+}
+
+.register-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}

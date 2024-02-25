@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Биржа заказов</title>
+    <!-- Подключение CSS для стилизации формы -->
+    <link rel="stylesheet" href="exchange.css">
+</head>
+<body>
+    <form action="index.html">
+                <button class="button-log" >login</button>
+    </form>
+    <div class="category-container">
+        <div class="tab-box">
+            <button class="tab-button" onclick="showContent('content1')">Design</button>
+            <button class="tab-button" onclick="showContent('content2')">Programming</button>
+            <button class="tab-button" onclick="showContent('content3')">Website layout</button>
+            
+        </div>
+
+        <div id="content1" class="tab-content">
+            <div class="tasks-container">
+                <div class="task-container">
+                    <h2 class="h2task-container">Сделать дизайн под</h2>
+                    <label class="labeltask-container">Это содержимое первой вкладки. nrTLZDnyOkLrsGvTGxLMLGyUEMUkfiTrChJGhJDQyZfOwExxJEvCrDOpBnhxyikQfGOCnihnikxnwvyQTswssOMOiUJJQkCBEDxD
+                    </label>
+                    <button class="button-readMore">Читать далее</button>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div id="content2" class="tab-content" style="display:none;">
+            <div class="tasks-container">
+                <div class="task-container">
+                    <h2 class="h2task-container">Написать приложение на C++</h2>
+                    <label class="labeltask-container">Это содержимое первой вкладки.</label>
+                </div>
+            </div>
+        </div>
+
+        <div id="content3" class="tab-content" style="display:none;">
+            <div class="tasks-container">
+                <div class="task-container">
+                    <h2 class="h2task-container">Адаптировать сайт</h2>
+                    <label class="labeltask-container">Это содержимое первой вкладки.</label>
+                </div>
+            </div>
+        </div>
+
+        <script src="tab.js"></script>
+    </div>
+    
+</body>
+</html>
