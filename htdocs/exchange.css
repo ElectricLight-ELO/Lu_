@@ -32,18 +32,26 @@ body {
     overflow: hidden;
 }
 .task-container {
-    width:   750px;
+    width: 750px;
     height: 65px;
-    margin:   100px auto;
-    padding:   20px;
+    margin: 100px auto;
+    padding: 20px;
     background-color: #8321b9;
-    box-shadow:   0px   0px   10px rgba(0,   0,   0,   0.1);
-    position: relative; 
-    z-index:  1;
-    top:-13vh;
-    left: 0vw; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    top: -13vh;
+    left: 0vw;
     border-radius: 7px;
     overflow: hidden;
+    /* Добавляем свойство transition */
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.task-container:hover {
+    /* Изменяем цвет фона при наведении */
+    background-color: #8321a2; /* Пример нового цвета, выберите свой */
 }
 .button-log{
     position: relative;
@@ -72,6 +80,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
     margin-bottom:5px;
+    
 }
 button:hover {
     background-color: #0056b3;
